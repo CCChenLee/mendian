@@ -7,21 +7,29 @@
     <image class='img' src='../image/logo.jpg'></image>
   </view>
 
+  <!-- 我是华丽分割线 -->
+  <view style='height: 1px;border-top: 1px solid #ddd;text-align: center;'>
+    <span style='position: relative;top: -12px;background: #fff;font-size:13px;padding: 0 10px;'>联系方式</span></view>
+
   <view class="flex-wrp">
     <view class="iconfont icon-map" bindtap="getAddress">
-      <text class='dizhi'> 汕头市金平区荣隆苑12栋</text></view>
+      <text class='dizhi'> 汕头市金平区荣隆苑12栋</text>
+      <text class='icon-more' style='float:right;font-size:13px'></text>
+    </view>
     <view class="iconfont icon-time2"> 
       <text class='phone'> 营业时间(7:00-20:00)</text></view>
     <view class="iconfont icon-phone" bindtap='calling'>
-      <text class='phone'> 0754-88440806</text></view>
+      <text class='phone'> 0754-88440806</text>
+      <text class='icon-more' style='float:right;font-size:13px'></text>
+    </view>
   </view>
 
   <!-- 我是华丽分割线 -->
   <view style='height: 1px;border-top: 1px solid #ddd;text-align: center;'>
     <span style='position: relative;top: -12px;background: #fff;font-size:13px;padding: 0 10px;'>请上下滑动查看图片</span></view>
 
-  <view style='position:fixed'>
-    <scroll-view scroll-y="true" style="padding: 16px 0;height:414px" >
+  <view style='position:fixed;padding: 16px 8px;width:95%'>
+    <scroll-view scroll-y="true" style="height:414px" >
       <image class='show' src='../image/2.jpg'></image>
       <image class='show' src='../image/3.jpg'></image>
       <image class='show' src='../image/4.jpg'></image>

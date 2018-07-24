@@ -7,12 +7,13 @@
     font-size: 16px;
 }
 .head{
-    padding: 50rpx 20rpx 20rpx 50rpx;
+    padding: 40rpx 30rpx 20rpx 30rpx;
     height: 20%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     flex-direction:row;
+    padding-bottom: 15px;
 }
 .title{
     width: 75%;
@@ -39,7 +40,9 @@
 .flex-wrp {
   display: flex;
   flex-direction:column;
-  padding-bottom: 16px;
+  padding-bottom: 26px;
+  padding-top: 26px;
+  width: 95%;
 }
 .dizhi{
   font-size: 12px;
