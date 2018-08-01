@@ -28,8 +28,8 @@
   <view style='height: 1px;border-top: 1px solid #ddd;text-align: center;'>
     <span style='position: relative;top: -12px;background: #fff;font-size:13px;padding: 0 10px;'>请上下滑动查看图片</span></view>
 
-  <view style='position:fixed;padding: 16px 8px;width:95%'>
-    <scroll-view scroll-y="true" style="height:414px" >
+  <!-- <view style='position:fixed;padding: 16px 8px;width:95%'> -->
+    <scroll-view scroll-y="true" style="height:414px;padding: 16px 8px;width:95%" >
       <image class='show' src='../image/2.jpg'></image>
       <image class='show' src='../image/3.jpg'></image>
       <image class='show' src='../image/4.jpg'></image>
@@ -38,5 +38,9 @@
       <image class='show' src='../image/7.jpg'></image>
       <image class='show' src='../image/1.jpg'></image>
     </scroll-view>
+  <!-- </view> -->
+  <view style='height: 1px;border-top: 1px solid #ddd;text-align: center;'>
+    <span style='position: relative;top: -12px;background: #fff;font-size:13px;padding: 0 10px;'>O(∩_∩)O被你发现底线了哦         </span>
   </view>
+
 </view>
